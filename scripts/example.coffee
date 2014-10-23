@@ -11,3 +11,15 @@
 module.exports = (robot) ->
   robot.hear /まき/, (msg) ->
     msg.send "何の用ですか"
+
+  robot.hear /ぬるぽ/, (msg) ->
+    msg.send '''
+
+   Λ＿Λ    ＼＼
+  （ ・∀・）   | | ｶﾞｯ
+ と       ）   | |
+   Ｙ /ノ     人
+    / ）     <  >  _Λ∩
+ ＿/し' ／／  Ｖ｀Д´）/
+ （＿フ彡            / ←>>1
+'''
